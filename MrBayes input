@@ -1,0 +1,10 @@
+prset aamodel=mixed
+mcmc nchains=1 ngen=3000000
+sumt
+sump
+
+prset aamodelpr=fixed(Wag)
+
+or 
+
+prset aamodelpr=fixed(Blosum)
